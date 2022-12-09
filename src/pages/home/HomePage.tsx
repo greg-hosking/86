@@ -14,7 +14,7 @@ const HomePage: React.FunctionComponent = () => {
     <Container fluid className='p-0'>
       <Row className='m-5'>
         <Col>
-          <Image fluid src='https://picsum.photos/800'></Image>
+          <Image fluid src={require('../../assets/menu.png')}></Image>
         </Col>
         <Col>
           <Form>
@@ -123,7 +123,7 @@ const HomePage: React.FunctionComponent = () => {
         </Col>
       </Row>
       <Row className='px-5 m-5'>
-        <h3 className='text-center'>86 Mission Statement</h3>
+        <h3 className='text-center'>Our Mission Statement</h3>
         <p className='text-center'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
           aliquet velit non nisi faucibus, non volutpat lectus vehicula. Integer
@@ -134,10 +134,10 @@ const HomePage: React.FunctionComponent = () => {
         </p>
       </Row>
       <Row className='px-5 m-5'>
-        <h3 className='text-center mb-3'>Why 86?</h3>
+        <h3 className='text-center mb-3'>Why NixIt?</h3>
         <Col>
-          <h4 className='text-center'>Lorem ipsum</h4>
-          <Image fluid src='https://picsum.photos/500'></Image>
+          <h4 className='text-center'>Easier ordering</h4>
+          <Image fluid src={require('../../assets/waiter.png')}></Image>
           <p className='text-center'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             aliquet velit non nisi faucibus, non volutpat lectus vehicula.
@@ -145,8 +145,8 @@ const HomePage: React.FunctionComponent = () => {
           </p>
         </Col>
         <Col>
-          <h4 className='text-center'>Lorem ipsum</h4>
-          <Image fluid src='https://picsum.photos/501'></Image>
+          <h4 className='text-center'>Increased customer satisfaction</h4>
+          <Image fluid src={require('../../assets/satisfaction.png')}></Image>
           <p className='text-center'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             aliquet velit non nisi faucibus, non volutpat lectus vehicula.
@@ -154,8 +154,8 @@ const HomePage: React.FunctionComponent = () => {
           </p>
         </Col>
         <Col>
-          <h4 className='text-center'>Lorem ipsum</h4>
-          <Image fluid src='https://picsum.photos/502'></Image>
+          <h4 className='text-center'>Save on printing costs</h4>
+          <Image fluid src={require('../../assets/save-money.png')}></Image>
           <p className='text-center'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             aliquet velit non nisi faucibus, non volutpat lectus vehicula.
